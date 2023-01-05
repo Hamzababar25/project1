@@ -4,9 +4,7 @@ import { DocService } from "./doctor.services";
 
 export class CreatedocDto {
     name: string;
-    email: number;
-    
-    docdss: Doc;
+    specialization: string
    
   
   }
